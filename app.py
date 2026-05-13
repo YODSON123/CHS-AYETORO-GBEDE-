@@ -1,4 +1,4 @@
-    import streamlit as st
+import streamlit as st
 import pandas as pd
 import os
 
@@ -53,4 +53,3 @@ else:
             st.info(f"**Principal's Comment:** {res['Principal_Comment']}")
         else:
             st.error("No record found. Please check the ID or contact the school admin.")
-    
